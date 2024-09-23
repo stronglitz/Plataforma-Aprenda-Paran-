@@ -38,6 +38,10 @@ nav ul li {
     border-radius: 10px;
 }
 
+h2, h3 {
+    font-size: 2em;
+}
+
 button {
     background-color: #007BFF;
     color: white;
@@ -64,11 +68,17 @@ section {
     padding: 10px;
     background-color: #f9f9f9;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.curso img {
-    max-width: 100%;
-    border-radius: 5px;
+.curso h3 {
+    font-size: 1.8em;
+}
+
+.curso button {
+    margin-top: 10px;
 }
 
 footer {
