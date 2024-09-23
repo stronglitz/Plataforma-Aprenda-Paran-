@@ -1,9 +1,14 @@
-// Funções interativas podem ser adicionadas aqui
 console.log("Plataforma de Aprendizado carregada! 🚀");
 
-// Exemplo de interatividade simples
+// Formulário de contato
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Previne o envio padrão do formulário
+    alert('Mensagem enviada com sucesso!');
+});
+
+// Exemplo de interatividade simples para inscrição em cursos
 document.querySelectorAll('.curso button').forEach(button => {
     button.addEventListener('click', () => {
-        alert('Você clicou em um curso! Mais informações em breve.');
+        alert('Inscrição realizada com sucesso!');
     });
 });
